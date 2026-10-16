@@ -7,3 +7,5 @@ Open index.html directly or serve this directory with a static web server. No bu
 The student package intentionally excludes professor keys, speaker scripts, the historical conversation archive, and the original full PDF. UX worked guidance on source pages 40–42 is replaced with student prompts. Page 22 uses anonymous prompts. Slide numbers match the actual 45-page PDF, not the old assistant script numbering.
 
 Visual design follows the owner’s Excel to Excel deck. Source presenter: Joshua I.L. Palisoc. Source closing credit: Felix Concepcion Veroya, Ask Lex PH Academy. Historical data graphics retain their source credits and are used as examples for critical reading, not current factual claims. New teaching prompts are adaptations. The United case uses a separate supplemental reading.
+
+Original presenter photographs and selected visuals are extracted from the supplied ALAB-Critical-Thinking.pptx. The population chart retains its static 1950 frame.
