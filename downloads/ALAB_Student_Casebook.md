@@ -614,6 +614,6 @@ Evidence / assumption / uncertainty: ___________________
 
 ## Source and numbering notes
 
-The actual PDF has 45 slides. Earlier assistant scripts numbered 1–25 do not align one-to-one with those pages. The new presentation and new speaker scripts use actual PDF page numbers throughout. Student slides 40–42 replace worked UX guidance with prompts, and slide 22 uses anonymous feedback prompts. The student site does not distribute the full historical compilation, original PDF, professor key, or speaker notes because those contain worked answers or additional private teaching material.
+The actual PDF has 45 slides. Earlier assistant scripts numbered 1–25 do not align one-to-one with those pages. The new presentation and new speaker scripts use actual PDF page numbers throughout. Student slides 40–42 replace worked UX guidance with prompts, and slide 22 uses anonymous feedback prompts. The student site does not distribute the full historical compilation, original PDF, professor key, or unencrypted speaker notes because those contain worked answers or additional private teaching material.
 
 The United case is a teaching adaptation of the separate local two-page reading. Historical submission links are omitted. Follow your professor’s current class instructions.

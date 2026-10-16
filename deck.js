@@ -5,8 +5,6 @@ let current=0,lastFocus=null;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const lines=s=>esc(s).replace(/\n/g,'<br>');
 const prompt=s=>s?`<div class="prompt"><b>Discuss</b>${esc(s)}</div>`:'';
-const noteButton=window.ALAB_NOTES?'<button id="speaker-notes">Speaker notes</button>':'';
-if(noteButton){document.querySelector('.deck-header nav').insertAdjacentHTML('afterbegin',noteButton);document.body.insertAdjacentHTML('beforeend','<dialog id="notes-dialog" class="notes-dialog"><div class="dialog-heading"><h2>Professor speaker notes</h2><button id="close-notes" aria-label="Close speaker notes">✕</button></div><div id="notes"></div></dialog>');document.getElementById('speaker-notes').onclick=()=>{document.getElementById('notes').innerHTML=window.ALAB_NOTES[current].paragraphs.map(p=>'<p>'+esc(p)+'</p>').join('');document.getElementById('notes-dialog').showModal();};document.getElementById('close-notes').onclick=()=>document.getElementById('notes-dialog').close();}
 function render(){
 const s=slides[current];let inner='';
 const head=`<div class="slide-top"><span class="number">${String(s.n).padStart(2,'0')} / 45</span><span class="rule"></span><span class="eyebrow" style="margin:0">ALAB · CRITICAL THINKING</span></div><h1>${lines(s.title)}</h1><p class="subtitle">${esc(s.sub)}</p>`;
